@@ -14,6 +14,8 @@
 
 ['🍎', '🍌', '🍇'].findIndex(emoji => emoji === '🍌'); // get the index of  🍌, output: 1 //
 
+['🍎', '🍌', '🍇'].some(emoji => emoji === "🍎") //	Checks if any of the elements in an array pass a test,output: true //
+
 Array.from('🍎🍌🍇'); //  Creates an Array from a String, output: ["🍎", "🍌", "🍇"] //
 
 ['🍎', '🍌', '🍇'].includes('🥭'); // Check if the fruit array contains "🥭", output : false //
@@ -44,4 +46,5 @@ Array.isArray(['🍎', '🍌', '🍇']); // check for an array, output : true //
 
 ['🍎', '🍌', '🍇'].toString(); // Converts an array to a string, and returns the result, output:"🍎,🍌,🍇" //
 
-[3, 10, 18, 20].some(num => num > 10); //	Checks if any of the elements in an array pass a test,output: true //
+
+
