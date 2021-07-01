@@ -12,7 +12,7 @@
 
 ['🍎', '🍌', '🍇'].find(emoji => emoji === '🍎'); // element in the array that has a value of "🍎", output : "🍎" //
 
-['🍎', '🍌', '🍇'].findIndex(emoji => emoji === ''); // get the index of  🍌, output: 1 //
+['🍎', '🍌', '🍇'].findIndex(emoji => emoji === '🍌'); // get the index of  🍌, output: 1 //
 
 Array.from('🍎🍌🍇'); //  Creates an Array from a String, output: ["🍎", "🍌", "🍇"] //
 
