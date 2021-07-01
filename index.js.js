@@ -28,7 +28,7 @@ Array.isArray(['🍎', '🍌', '🍇']); // check for an array, output : true //
 
 ['🍎', '🍌', '🍇'].push('🍒'); // Adds new elements to the end of an array and returns length, output: 4 //
 
-[1, -1, 3, 4].reduce((acc, cur) => acc + cur); //Reduce the values of an array to a single value, output: 7 //
+[1, -1, 3, 4].reduce((acc, cur) => acc + cur,0); //Reduce the values of an array to a single value, output: 7 //
 
 ['🍎', '🍌', '🍇'].reverse(); // Reverses the order of the elements in an array, output: ["🍇", "🍌", "🍎"] //
 
