@@ -38,15 +38,15 @@ Array.of('🍎','🍌','🍇'); // creates a new Array with provided elements ou
 
 ['🍎', '🍌', '🍇'].reverse(); // Reverses the order of the elements in an array, output: ["🍇", "🍌", "🍎"] //
 
-['🍇', '🍌', '🍎'].shift(); // Removes the first element of an array, and returns that element, output: "🍇" //
-
-['🍇', '🍌', '🍎'].unshift('🍐'); // Adds new elements to the beginning and returns the new length, output: 4 //
-
 ['🍎', '🍌', '🍇', '🥭'].splice(1, 3); // 	Adds/Removes elements output: (removed array)["🍌", "🍇"]  (new array) [["🍎", "🥭"]//
 
 ['🍎', '🍌', '🍇'].slice(1, 2); // Selects a part of an array, and returns the new array, output: ["🍌"] //
 
 ['🍎', '🍌', '🍇'].toString(); // Converts an array to a string, and returns the result, output:"🍎,🍌,🍇" //
+
+['🍇', '🍌', '🍎'].shift(); // Removes the first element of an array, and returns that element, output: "🍇" //
+
+['🍇', '🍌', '🍎'].unshift('🍐'); // Adds new elements to the beginning and returns the new length, output: 4 //
 
 [4, 8, 12].map(num => num / 2); // Creates a new array by calling a function for each array element, output: [2, 4, 6,] //
 
