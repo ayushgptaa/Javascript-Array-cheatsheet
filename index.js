@@ -40,7 +40,7 @@ Array.isArray(['🍎', '🍌', '🍇']); // check for an array, output : true //
 
 ['🍎', '🍌', '🍇', '🥭'].splice(1, 3); // 	Adds/Removes elements output: (removed array)["🍌", "🍇"]  (new array) [["🍎", "🥭"]//
 
-['c', 'b', 'a'].sort(); // Sorts the elements of an array, output: ["a", "b", "c"] //
+['c', 'b', 'a'].sort(); // Sorts the elements of an array, output: ["a", "b", "c"]  default method is ascending/alphabetical //
 
 ['🍎', '🍌', '🍇'].slice(1, 2); // Selects a part of an array, and returns the new array, output: ["🍌"] //
 
