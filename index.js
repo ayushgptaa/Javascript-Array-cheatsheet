@@ -2,25 +2,21 @@
 
 ['🍎', '🍌', '🍇', '🥭'].copyWithin(2, 0); //copy first 2 array elements to last 2, output: ["🍎", "🍌", "🍎","🍌"] //
 
-[10, 20, 30, 40].every(num => num > 5) // Check if every element in the array has a value more than 5, Output : true //
+[10, 20, 30, 40].filter(num => num > 20); // element in the array that has a value more than 20, output : [30, 40] //
 
 [('🍎', '🍌', '🍇', '🥭')].fill('🍑'); // fill all the array elements with "🍑", Output : ["🍑","🍑","🍑","🍑"] //
 
 ['🍎', '🍌'].forEach(emoji => console.log(emoji)); //	Calls a function for each array element output":"🍎","🍌"//
 
-[10, 20, 30, 40].filter(num => num > 20); // element in the array that has a value more than 20, output : [30, 40] //
-
 ['🍎', '🍌', '🍇'].find(emoji => emoji === '🍎'); // element in the array that has a value of "🍎", output : "🍎" //
 
 ['🍎', '🍌', '🍇'].findIndex(emoji => emoji === '🍌'); // get the index of  🍌, output: 1 //
 
+['🍎', '🍌', '🍇'].some(emoji => emoji === "🍎") // Check if every element in the array has a value 🍎, Output : false //
+
 ['🍎', '🍌', '🍇'].some(emoji => emoji === "🍎") //	Checks if any of the elements in an array pass a test,output: true //
 
-Array.from('🍎🍌🍇'); //  Creates an Array from a String, output: ["🍎", "🍌", "🍇"] //
-
 ['🍎', '🍌', '🍇'].includes('🥭'); // Check if the fruit array contains "🥭", output : false //
-
-Array.isArray(['🍎', '🍌', '🍇']); // check for an array, output : true //
 
 ['🍎', '🍌', '🍇'].join(' + '); // Joins all elements of an array into a string, output : "🍎 + 🍌 + 🍇"//
 
@@ -40,11 +36,15 @@ Array.isArray(['🍎', '🍌', '🍇']); // check for an array, output : true //
 
 ['🍎', '🍌', '🍇', '🥭'].splice(1, 3); // 	Adds/Removes elements output: (removed array)["🍌", "🍇"]  (new array) [["🍎", "🥭"]//
 
-['c', 'b', 'a'].sort(); // Sorts the elements of an array, output: ["a", "b", "c"]  default method is ascending/alphabetical //
+['c', 'b', 'a'].sort(); // Sorts the elements of an array, output: ["a", "b", "c"]  d(efault method is ascending/alphabetical) //
 
 ['🍎', '🍌', '🍇'].slice(1, 2); // Selects a part of an array, and returns the new array, output: ["🍌"] //
 
 ['🍎', '🍌', '🍇'].toString(); // Converts an array to a string, and returns the result, output:"🍎,🍌,🍇" //
+
+Array.from('🍎🍌🍇'); //  Creates an Array from a String, output: ["🍎", "🍌", "🍇"] //
+
+Array.isArray(['🍎', '🍌', '🍇']); // check for an array, output : true //
 
 
 
