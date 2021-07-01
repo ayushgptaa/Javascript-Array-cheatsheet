@@ -5,7 +5,7 @@
 ![image](Cheatsheet.png)
 
 <h2 align="center">
-<a href="myFile.js" download>Click to download ☝</a>
+<a href="Cheatsheet.png" download>Click to download ☝</a>
 </h2>
 
 
