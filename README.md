@@ -5,10 +5,10 @@
 ![image](Cheatsheet.png)
 
 <br/>
-
 <h2 align="center">
 <a href="myFile.js" download>Click to download ☝</a>
 </h2>
+
 
 ## Important 🚨
 
