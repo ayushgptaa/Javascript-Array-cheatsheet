@@ -52,7 +52,6 @@ Array.of('🍎','🍌','🍇'); // creates a new Array with provided elements ou
 
 [1, -1, 3, 4].reduce((acc, cur) => acc + cur,0); //Reduce the values of an array to a single value, output: 7 //
 
-[1, -1, 3, 4].reduce((acc, cur) => acc + cur,0); //Reduce the values of an array to a single value, output: 7 //
 
 
 
