@@ -12,9 +12,9 @@ Array.of('🍎', '🍌', '🍇'); // creates a new Array with provided elements 
 
 ['🍎', '🍌', '🍇', '🥭'].copyWithin(2, 0); //copy first 2 array elements to last 2, output: ["🍎", "🍌", "🍎","🍌"] //
 
-['🍎', '🍌', '🍇', '🥭'].filter(emoji => emoji === '🍎'); // Returns the array that matches our test output : ["🍎"] //
+['🍎', '🍌', '🍇'].filter(emoji => emoji === '🍎'); // Returns the array that matches our test output : ["🍎"] //
 
-['🍎', '🍌', '🍇', '🥭'].fill('🍑'); // fill all the array elements with "🍑", Output : ["🍑","🍑","🍑","🍑"] //
+['🍎', '🍌', '🍇'].fill('🍑'); // fill all the array elements with "🍑", Output : ["🍑","🍑","🍑"] //
 
 ['🍎', '🍌', '🍇'].find(emoji => emoji === '🍎'); // element in the array that has a value of "🍎", output : "🍎" //
 
