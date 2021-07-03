@@ -18,9 +18,13 @@ Array.of('🍎', '🍌', '🍇'); // creates a new Array with provided elements 
 
 ['🍎', '🍌', '🍇'].find(emoji => emoji === '🍎'); // element in the array that has a value of "🍎", output : "🍎" //
 
-['🍎', '🍌', '🍇'].findIndex(emoji => emoji === '🍌'); // get the index of  🍌, output: 1 //
+['🍎', '🍌', '🍇'].indexOf('🍌'); // get the index of  🍌, output: 1 //
+
+['🍎', '🍌', '🍇'].findIndex(emoji => emoji === '🍌'); // returns the index of the first element  that satisfies the provided testing function. 🍌, output: 1 //
 
 ['🍎', '🍌', '🍇'].forEach(emoji => console.log(emoji)); //  executes a provided function once for each array element, output :🍎🍌🍇 //
+
+['🍎', '🍌', '🍇'].map(emoji => console.log(emoji)); // Creates a new array by calling a function for each array element, output: 🍎🍌🍇 //
 
 ['🍎', '🍌', '🍇'].every(emoji => emoji === '🍎'); // Check if every element in the array has a value 🍎, Output : false //
 
@@ -42,10 +46,8 @@ Array.of('🍎', '🍌', '🍇'); // creates a new Array with provided elements 
 
 ['🍎', '🍌', '🍇'].toString(); // Converts an array to a string, and returns the result, output:"🍎,🍌,🍇" //
 
-['🍇', '🍌', '🍎'].shift(); // Removes the first element of an array, and returns that element, output: "🍇" //
+['🍎', '🍌', '🍇'].shift(); // Removes the first element of an array, and returns that element, output: "🍎" //
 
-['🍇', '🍌', '🍎'].unshift('🍐'); // Adds new elements to the beginning and returns the new length, output: 4 //
-
-['🍇', '🍌', '🍎'].map(emoji => console.log(emoji)); // Creates a new array by calling a function for each array element, output: "🍇" "🍌" "🍎" //
+['🍎', '🍌', '🍇'].unshift('🍐'); // Adds new elements to the beginning and returns the new length, output: 4 //
 
 [1, -1, 3, 4].reduce((acc, cur) => acc + cur, 0); //Reduce the values of an array to a single value, output: 7 //
