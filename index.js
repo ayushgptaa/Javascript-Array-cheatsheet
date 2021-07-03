@@ -1,4 +1,4 @@
-/******************STATIC PROPERTIES*******************/
+y/******************STATIC PROPERTIES*******************/
 
 Array.from('🍎🍌🍇'); //  Creates an Array from a String, output: ["🍎", "🍌", "🍇"] //
 
@@ -22,7 +22,9 @@ Array.of('🍎', '🍌', '🍇'); // creates a new Array with provided elements 
 
 ['🍎', '🍌', '🍇'].forEach(emoji => console.log(emoji)); //  executes a provided function once for each array element, output :🍎🍌🍇 //
 
-['🍎', '🍌', '🍇'].some(emoji => emoji === '🍎'); // Check if every element in the array has a value 🍎, Output : false //
+['🍎', '🍌', '🍇'].every(emoji => emoji === '🍎'); // Check if every element in the array has a value 🍎, Output : false //
+
+['🍎', '🍌', '🍇'].some(emoji => emoji === '🍎'); // Check if atleast one element in the array has a value 🍎, Output : true //
 
 ['🍎', '🍌', '🍇'].includes('🥭'); // Check if the fruit array contains "🥭", output : false //
 
