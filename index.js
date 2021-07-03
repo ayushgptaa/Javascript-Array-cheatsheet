@@ -50,4 +50,4 @@ Array.of('🍎', '🍌', '🍇'); // creates a new Array with provided elements 
 
 ['🍎', '🍌', '🍇'].unshift('🍐'); // Adds new elements to the beginning and returns the new length, output: 4 //
 
-[1, -1, 3, 4].reduce((acc, cur) => acc + cur, 0); //Reduce the values of an array to a single value, output: 7 //
+['🍎', '🍌', '🍇'].reduce((acc, cur) => acc + cur, '🍌'); //Reduce the values of an array to a single value, output: "🍌🍎🍌🍇"//
