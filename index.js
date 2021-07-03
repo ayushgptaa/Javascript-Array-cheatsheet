@@ -1,4 +1,4 @@
-y/******************STATIC PROPERTIES*******************/
+/******************STATIC PROPERTIES*******************/
 
 Array.from('🍎🍌🍇'); //  Creates an Array from a String, output: ["🍎", "🍌", "🍇"] //
 
