@@ -24,7 +24,7 @@ Array.of('🍎', '🍌', '🍇'); // creates a new Array with provided elements 
 
 ['🍎', '🍌', '🍇'].forEach(emoji => console.log(emoji)); //  executes a provided function once for each array element, output :🍎🍌🍇 //
 
-['🍎', '🍌', '🍇'].map(emoji => console.log(emoji)); // Creates a new array by calling a function for each array element, output: 🍎🍌🍇 //
+['🍎', '🍌', '🍇'].map(emoji => {{ value: emoji }}); // Creates a new array by calling a function for each array element, output: [{ value: 🍎}, { value: 🍌 }, { value: 🍇 }] //
 
 ['🍎', '🍌', '🍇'].every(emoji => emoji === '🍎'); // Check if every element in the array has a value 🍎, Output : false //
 
