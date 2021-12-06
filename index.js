@@ -14,7 +14,7 @@ Array.of('🍎', '🍌', '🍇'); // creates a new Array with provided elements 
 
 ['🍎', '🍌', '🍇'].filter(emoji => emoji === '🍎'); // Returns the array that matches our test output : ["🍎"] //
 
-['🍎', '🍌', '🍇'].fill('🍑'); // fill all the array elements with "🍑", Output : ["🍑","🍑","🍑"] //
+['🍎','🍌','🍇','🍒'].fill('🍑',2,3) // fill all the array elements with "🍑", output ['🍎','🍑','🍑','🍒']
 
 ['🍎', '🍌', '🍇'].find(emoji => emoji === '🍎'); // element in the array that has a value of "🍎", output : "🍎" //
 
@@ -24,7 +24,7 @@ Array.of('🍎', '🍌', '🍇'); // creates a new Array with provided elements 
 
 ['🍎', '🍌', '🍇'].forEach(emoji => console.log(emoji)); //  executes a provided function once for each array element, output :🍎🍌🍇 //
 
-['🍎', '🍌', '🍇'].map(emoji => emoji + 🍒); // Creates a new array by replacing with the return of a function for each array element, output: [🍎🍒, 🍌🍒 , 🍇🍒]
+['🍎', '🍌', '🍇'].map(emoji => emoji + '🍒'); // Creates a new array by replacing with the return of a function for each array element, output: [🍎🍒, 🍌🍒 , 🍇🍒]
 
 ['🍎', '🍌', '🍇'].every(emoji => emoji === '🍎'); // Check if every element in the array has a value 🍎, Output : false //
 
@@ -50,4 +50,4 @@ Array.of('🍎', '🍌', '🍇'); // creates a new Array with provided elements 
 
 ['🍎', '🍌', '🍇'].unshift('🍐'); // Adds new elements to the beginning and returns the new length, output: 4 //
 
-['🍎', '🍌', '🍇'].reduce((acc, cur) => acc + cur, '🍌'); //Reduce the values of an array to a single value, output: "🍌🍎🍌🍇"//
+['🍎', '🍌', '🍇'].reduce((acc, cur) => acc + cur, '🍒'); //Reduce the values of an array to a single value, output: "🍒🍎🍌🍇"//
